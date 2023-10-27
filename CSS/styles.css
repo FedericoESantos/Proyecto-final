@@ -1,0 +1,199 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+  h1{
+    color: rgb(236, 191, 229);
+    font-weight: bold;
+  }
+  h2{
+    padding: 0 .625rem 0 7.5rem;
+  }
+body {
+  background-image: url("../ASSETS/IMG/fondo.png"); 
+  display: flex;
+  flex-wrap: wrap;
+}
+body .header{
+  background-color: rgba(58, 58, 148, 0.79);
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  padding: .625rem;
+justify-content: space-between;
+
+}
+body .header img{
+  height: 6.875rem;
+}
+body .header ul #subMenu{
+  list-style: none;
+  position: relative;
+}
+body .header ul #subMenu #carrito{
+  text-align: center;
+  display: none;
+}
+body ul #subMenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.768);
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+
+body .header ul #subMenu img{
+  height: 3.125rem;
+  cursor: pointer;
+}
+
+/* .....................................PRODUCTOS ................................*/
+
+body #productos{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5625rem;
+  justify-content: center;
+  gap: 1.25rem;
+}
+body #productos #art{
+  background-color: rgba(250, 235, 215, 0.735);
+  height: 28.125rem;
+  text-align: center;
+}
+body #productos #art img{
+  height: 18.75rem;
+  }
+body #productos .btnCompra{
+  padding: 16px;
+  background-color: rgba(26, 99, 151, 0.864);
+  border: none;
+  color: #3b1f8e;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: .3125rem;
+  cursor: pointer;
+}
+body #productos .btnCompra:hover{
+  background-color: rgba(37, 148, 227, 0.864);
+  transition: all .3s; 
+}
+
+
+
+
+/* ..................................SIMULADOR DE PUNTOS ..............................*/
+
+body .pie{
+  padding-top: 1.25rem;
+  width: 100%;
+  background-color: rgba(250, 235, 215, 0.64);
+}
+body .pie h2{
+  font-size: 2.8125rem;
+}
+body .pie p{
+  padding-top: .625rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+body .acumulaPuntos .premios{
+  display: flex;
+  padding: .625rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .acumulaPuntos .premios .card{
+  height: 20.625rem;
+  width: 17.8125rem;
+  border-style: groove;
+  background-color: rgba(242, 190, 122, 0.593);
+  justify-items: center;
+}
+body .acumulaPuntos .premios .card h4{
+text-align:  center;
+}
+body .acumulaPuntos .premios .card img{
+  height: 12.5rem;
+}
+body .acumulaPuntos .info p{
+  font-size: 1rem;
+}
+#uno{
+  display:none
+}
+#dos{
+  display:none
+}
+#tres{
+  display:none
+}
+/* .......................... FOOTER .................*/
+
+body .footer {
+  display: flex;
+  width: 100%;
+  background-color: rgba(24, 80, 221, 0.891);
+  height: 15.625rem; 
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 1.25rem;
+}
+body .footer .googleMaps iframe{
+  padding: .625rem;
+  height: 12.5rem;
+  width: 15.625rem;
+}
+body .footer ul{
+  align-self: center;
+  padding-bottom: 3.125rem;
+  width: 28.125rem;
+}
+body .footer ul img{
+  height: 5rem;
+}
+body .footer ul li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .625rem;
+}
+body .footer ul li a{
+  font-size: 1.25rem;
+  color: rgb(181, 181, 245);
+  text-decoration: none;
+  font-weight: bold;
+  align-self: center;
+}
+body .footer ul li a:hover{
+  color: goldenrod;
+}
+body .footer .contactos{
+  display: flex;
+  padding: .625rem;
+  flex-direction: column;
+  text-align: left;
+}
+body .footer .contactos figure{
+  display: flex;
+}
+body .footer .contactos figure img{
+  padding: .625rem;
+  height: 3.4375rem;
+  gap: .625rem;
+}
+body .footer .contactos figure p{
+  color: rgb(9, 9, 42);
+  font-weight: bold;
+  align-self: center;
+}
+main{
+  display: flex;
+  height: 37.5rem;
+}
